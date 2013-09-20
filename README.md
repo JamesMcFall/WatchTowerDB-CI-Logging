@@ -3,7 +3,8 @@ WatchTowerDB-CI-Logging
 
 WatchTowerDB is the Database driven version of [WatchTower Logging](https://github.com/JamesMcFall/WatchTower-CI-Logging). It is even simpler to set up and more useful as you can query the database to find information about errors.
 
-WatchTowerDB is a CodeIgniter library for writing to (and automatically generating) a series of log individual "streams" (e.g. "login-attempts" or "catastrophic-planet-destroying-errors" with the option of notifying a list of different people for different streams.
+WatchTowerDB is a CodeIgniter library for writing errors to the database in **streams** (which are a way of seperating the errors, not unlike individual files i.e. "login-attempts" or "catastrophic-planet-destroying-errors"). 
+There is an option of notifying a list of different people for different streams.
 
 Most applications I work on have some very distinct areas of functionality that require logging on their own. I wanted to make this as simple as possible. When you use the php code to start logging to a new stream, WatchTowerDB will create the stream in the database automatically.
 
