@@ -23,7 +23,7 @@ No further configuration is needed! The rest is automagic.
 Once that initial setup is done, logging becomes very very simple.
 
 ### Basic logging
-Logging is very straightforward. The first parameter specifies which log/stream you want to write into. The second parameter is the message to put in the log stream.
+Logging is very straightforward. The first parameter specifies which log/stream you want to write into (note if the log stream doesn't exist, it will be created). The second parameter is the message to put in the log stream.
 ```php
 # Note the first parameter is the logging stream (ie an individual log)
 $this->watchtowerdb->log("registration", "Oh no. Steve tried to enrol again. Don't worry, we stopped him!");
