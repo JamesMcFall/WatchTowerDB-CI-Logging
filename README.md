@@ -46,5 +46,5 @@ $o->one   = 1;
 $o->two   = 2;
 $o->three = 3;
             
-$this->watchtowerdb->log("registration", "Log an object: " . $this->watchtower->dumpVarToString($o));
+$this->watchtowerdb->log("registration", "Log an object: " . $this->watchtowerdb->dumpVarToString($o));
 ```
